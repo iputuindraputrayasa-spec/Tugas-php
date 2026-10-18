@@ -51,6 +51,9 @@
         $x = 10;
         $y = "10";
 
+        echo "Nilai x: $x<br>";
+        echo "Nilai y: $y<br><br>";
+
         echo "Nilai sama: ";
         var_export($x == $y);
         echo "<br>";
@@ -69,7 +72,7 @@
 
     echo "<hr>";
 // ========================================
-// LATIHAN 1: Menentukan Grade Nilai Mahasiswa
+// LATIHAN 1: MENETUKAN GRADE NILAI MAHASISWA
 // ========================================
         $nama = "Putu Indra";
         $nilai = 85;
